@@ -1,0 +1,13 @@
+{
+    "name": "<%=APP_NAME%>",
+    "version": "<%=APP_VERSION%>",
+    "private": false,
+    "description": "Your app's description",
+    "author": "Your Name <you.name@example.org>",
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-livereload": "^3.8.0",
+        "gulp-noprotocol": "^0.5.3"
+    },
+    "license": "MIT"
+}

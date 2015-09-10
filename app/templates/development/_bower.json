@@ -1,0 +1,6 @@
+{
+    "name": "<%=APP_NAME%>",
+	"version": "<%=APP_VERSION%>",
+  	"dependencies": {}
+}
+
