@@ -1,6 +1,6 @@
 {
   "name": "generator-np-static-frontend",
-  "version": "1.0.0-beta",
+  "version": "1.1.0-beta",
   "description": "A static frontend generator for Yeoman based on the best practices of NoProtocol",
   "license": "MIT",
   "main": "app/index.js",

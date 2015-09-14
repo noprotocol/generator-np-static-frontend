@@ -98,6 +98,12 @@ module.exports = yeoman.generators.Base.extend({
      * Copy all files needed for development and building processes.
      */
     
+    // git files
+    this.fs.copy(
+      this.templatePath('development/_.gitignore'),
+      this.destinationPath('.gitignore')
+    );
+
     // Bower files
     this.fs.copyTpl(
       this.templatePath('development/_bower.json'),
@@ -139,7 +145,7 @@ module.exports = yeoman.generators.Base.extend({
       this.templatePath('development/jshintrc'),
       this.destinationPath('.jshintrc')
     );
-  
+    
     /**
      * Copy all the files needed for the documentation.
      */
