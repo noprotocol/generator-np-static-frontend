@@ -17,11 +17,6 @@
     # RewriteCond %{HTTP_HOST} domain.\.com$ [OR] # copy this line if you want to match multiple domains
     # RewriteCond %{HTTP_HOST} anotherdomain\.com$ [NC] # when using redirect, make sure this is the last domain match and it ends with [NC]
     # RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
-
-    # Handle Front Controller...
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
 </IfModule>
 
 
